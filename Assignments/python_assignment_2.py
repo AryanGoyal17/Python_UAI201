@@ -64,6 +64,29 @@ print(number, "is", q4(number), end = "\n\n")
 
 #q5
 
+#Printing 1 to n using for loop
+
+n_q5 = int(input("Enter n: "))
+
+for i in range(1, n_q5 + 1):
+    print(i, end = " ")
+
+print("\n")
+
+#q6
+
+#Printing 1 to n using while loop
+
+n_q6 = int(input("Enter n: "))
+
+i = 1
+
+while(i <= n_q6):
+    print(i, end = " ")
+    # i++ (this doesnt exist in python)
+    i += 1
+
+print("\n")
 
 
 
