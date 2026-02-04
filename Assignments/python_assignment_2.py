@@ -121,10 +121,54 @@ print('\n')
 
 #Stop printing at 3 using break
 
+n_q9 = int(input("Enter n: "))
+
+for i in range(1, n_q9 + 1):
+
+    if(i == 3):
+        break
+
+    print(i, end = " ")
+
+print("\n")
 
 #q10
 
 #Print weekday using match-case
+
+day_number = int(input("Enter the number of weekday: "))
+
+match day_number:
+
+    case 1:
+        print("Day-1: Monday", end = "\n\n")
+    
+    case 2:
+        print("Day-2: Tuesday", end = "\n\n")
+
+    case 3:
+        print("Day-3: Wednesday", end = "\n\n")
+
+    case 4:
+        print("Day-4: Thursday", end = "\n\n")
+
+    case 5:
+        print("Day-5: Friday", end = "\n\n")
+
+    case 6:
+        print("Day-6: Saturday", end = "\n\n")
+
+    case 7:
+        print("Day-7: Sunday", end = "\n\n")
+
+    case _:
+        print("Invalid day number entered!!", end = "\n\n")
+
+#q11
+
+
+
+
 
 
 
