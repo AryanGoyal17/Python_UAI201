@@ -88,5 +88,45 @@ while(i <= n_q6):
 
 print("\n")
 
+#q7
+
+#Sum of first n natural numbers
+
+n_q7 = int(input("Enter n: "))
+
+sum = 0
+
+for i in range(1, n_q7 + 1):
+    sum += i
+    i += 1
+
+print("Sum of first", n_q7, "natural numbers:", sum, end = "\n\n")
+
+#q8
+
+#Skip character 'h' using continue
+
+string = input("Enter a string: ")
+
+for i in string:
+
+    if(i == 'h'):
+        continue
+
+    print(i, end = " ")
+
+print('\n')
+
+#q9
+
+#Stop printing at 3 using break
+
+
+#q10
+
+#Print weekday using match-case
+
+
+
 
 
