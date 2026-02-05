@@ -281,6 +281,25 @@ number_q15 = int(input("Enter a number: "))
 
 print("Number of digits in the number:", q15(number_q15))
 
+#Method-2 for question_15 (better than method-1)
+
+def q15_M2(num_q15_M2):
+
+    num_Digit_M2 = 1
+
+    num_q15_M2 = abs(num_q15_M2)
+
+    while(num_q15_M2 // 10 != 0):
+
+        num_q15_M2 //= 10
+        num_Digit_M2 += 1
+    
+    return num_Digit_M2
+
+number_q15_m2 = int(input("Enter a number: "))
+
+print("No. of digits:", q15_M2(number_q15_m2), end = "\n\n")
+
 #q16
 
         
