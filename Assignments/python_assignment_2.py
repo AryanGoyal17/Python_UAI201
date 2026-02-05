@@ -252,8 +252,44 @@ number_q14 = int(input("Enter the number whose factorial you want: "))
 print("Factorial of", number_q14, ":", q14(number_q14), end = "\n\n")
 
 
-#q15
-#
+#q15(IMPORTANT)
+#Count digits of a number
+
+import itertools
+
+def q15(num_q15):
+
+    num_digit = 0
+
+    num_q15 = abs(num_q15) #This line makes the code work for negative integers as well
+
+
+    for i in itertools.count(1):
+
+        if(num_q15 % (10 ** i) == num_q15):
+
+            num_digit = i
+            break
+
+#I wanted to make a loop which starts at 1 and then goes on till infinity until break condition is satisfied... the above loop didnt work
+#So now i tried to find ways online to make such a loop.. which gave me the idea to use use the itertools library
+#itertools.count function helps to create a infinite counter in a loop starting from 1 till infinity until break condition is satisfied..
+
+    return num_digit
+
+number_q15 = int(input("Enter a number: "))
+
+print("Number of digits in the number:", q15(number_q15))
+
+#q16
+
+        
+
+
+
+
+    
+
 
 
 
