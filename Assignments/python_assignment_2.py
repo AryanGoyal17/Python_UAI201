@@ -165,6 +165,56 @@ match day_number:
         print("Invalid day number entered!!", end = "\n\n")
 
 #q11
+#Maximum of three numbers
+
+def q11(num1, num2, num3):
+
+    if(num1 >= num2 and num1 >= num3):
+        return num1
+    
+    elif(num2 >= num3 and num2 >= num1):
+        return num2
+
+    else:
+        return num3
+
+
+number_q11_1 = float(input("Enter the first number: "))
+number_q11_2 = float(input("Enter the second number: "))
+number_q11_3 = float(input("Enter the third number: "))
+
+print("Maximum of the 3 numbers entered by you is: ", q11(number_q11_1, number_q11_2, number_q11_3), end = "\n\n")
+
+#q12
+#Grade calculator using if-elif
+
+def q12(marks):
+
+    if(marks >= 90 and marks <= 100):
+        return 'A'
+    
+    elif(marks >=75 and marks < 90):
+        return 'A-'
+    
+    elif(marks >= 65 and marks < 75):
+        return 'B'
+    
+    elif(marks >= 50 and marks < 65):
+        return 'B-'
+    
+    elif(marks >= 30 and marks < 50):
+        return 'C'
+    
+    elif(marks < 30 and marks >= 0):
+        return 'F'
+    
+    else:
+        return "Invalid marks entered!!"
+
+marks = float(input("Enter marks obtained by you in a subject: "))
+
+print("Grade obtained by you is:", q12(marks), end = "\n\n")
+
 
 
 
