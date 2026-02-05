@@ -215,6 +215,57 @@ marks = float(input("Enter marks obtained by you in a subject: "))
 
 print("Grade obtained by you is:", q12(marks), end = "\n\n")
 
+#q13
+#Multiplication Table
+
+def q13(num):
+
+    k = 10
+
+    for i in range(1, k + 1):
+        print(num, "*", i, "=", num*i)
+
+
+number_q13 = int(input("Enter an integer whose multiplication table you want: "))
+
+q13(number_q13)
+
+print("\n")
+
+#q14
+#Factorial using while
+
+def q14(num_q14):
+
+    i = 1
+    result = 1
+
+    while(i <= num_q14):
+
+        result *= i
+        i += 1
+    
+    return result
+
+number_q14 = int(input("Enter the number whose factorial you want: "))
+
+print("Factorial of", number_q14, ":", q14(number_q14), end = "\n\n")
+
+
+#q15
+#
+
+
+
+        
+
+
+
+
+
+
+
+
 
 
 
