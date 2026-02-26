@@ -74,3 +74,40 @@ list_q10_b = ["python", "c"]
 
 print(list_q10_a + list_q10_b, end = "\n\n")
 
+#q11
+
+list_q11 = [1,2,3]
+print(list_q11 * 2, end = "\n\n")
+
+#q12
+
+list_q12_a = []
+list_q12_b = []
+
+input_a = input("List1: ")
+input_b = input("List2: ")
+
+list_q12_elem1 = input_a.split()
+list_q12_elem2 = input_b.split()
+
+for i in list_q12_elem1:
+    list_q12_a.append(i)
+
+for i in list_q12_elem2:
+    list_q12_b.append(i)
+
+print(list_q12_a + list_q12_b, end = "\n\n")
+
+#q13
+
+list_q13 = ['python', 'c', 'java', 'php']
+print('cpp' in list_q13, end = "\n\n")
+
+#q14
+
+list_q14 = [1, 2, 3, 4, 5]
+print(6 not in list_q14, end = "\n\n")
+
+# q15
+
+
